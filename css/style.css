@@ -1,0 +1,55 @@
+#content{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    height: 100%;
+}
+
+.images  {
+    height: 70%;
+    width:99%;
+    position: absolute;
+     margin: 0;
+    padding: 0;
+}
+
+    .logo{
+        float: left;
+        width: 60px;
+        height: 45px;
+        margin-top: -1px;
+    }
+      nav{
+        font-size: 20px;
+        font-weight: 500;
+        background: #03899c;
+        height: 40px;
+        width: 100%;
+    }   
+    
+    nav a{
+        font-weight: 600;
+        color: wheat;
+    } 
+
+    nav a:hover{
+        font-weight: 800;
+    } 
+img{
+    width: 99%;
+    height: 90%;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#controls{
+    height: 3%;
+    width: 99%;
+    position: absolute;
+    top: 80%;
+}
+
